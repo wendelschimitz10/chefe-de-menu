@@ -1,26 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    bar
-  </header>
-  
-  <main>
-    main
-  </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicons/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Chef de Menu</title>
+    
+  </head>
+  <body>
+    <header class="header__container">
+      <nav class="header__menu-principal">
+        <a href="#">Comidas típicas brasileiras</a>
+        <a href="#">Doces típicos brasileiras</a>
+        <a href="#">Bebidas típicas brasileiras</a>
+      </nav>
+      <img class="header__image" src="./images/logo.png" alt="">
+      <!--Imagem lateral ao menu-->
+    </header>
 
-  <footer>
-    footer
-  </footer>
 
-</body>
-<script src="/js/index.js"></script>
-<script src="/node_modules/knockout/build/output/knockout-latest.js"></script>
+    <main>
+      <section class="banner__container">
+        <!-- <img src="/images/initialbanner.png" alt="Imagem do banner inicial." class="banner__image"> -->
+      </section>
+
+
+    </main>
+
+
+
+    <footer>
+      <h2>Redes Socias</h2>
+      <h2>Informações</h2>
+      <p>
+        <img src="images/instagram.png" alt="instagram">
+        <img src="images/github.png" alt="github">
+        <img src="images/facebook.png" alt="facebook">
+        <a href="#">Inicio</a>
+        <a href="#">Sobre Nós</a>
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de uso</a>
+      </p>
+      <p>
+        &copy;2022 - Chefe de Menu - Todos Direitos reservardos
+      </p>
+    </footer>
+      
+    
+
+    
+  </body>
+  <script src="/js/index.js"></script>
+  <script src="/node_modules/knockout/build/output/knockout-latest.js"></script>
 </html>

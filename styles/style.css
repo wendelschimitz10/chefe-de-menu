@@ -1,0 +1,36 @@
+.header__container {
+  height: 70px;
+  padding: 25px;
+  background-color: var(--header-primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__container .header__menu-principal {
+}
+
+.header__image {
+  position: relative;
+  left: -10%;
+  height: 55px;
+}
+
+.header__container .header__menu-principal a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  font-family: 'Comfortaa', cursive;;
+  color: rgb(255, 255, 255);
+}
+
+.banner__container {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.2%;
+}
+
+.banner__image {
+  width: 75%;
+  max-width: 100%;
+}
