@@ -1,6 +1,10 @@
 :root{
   --background-primary-color: rgb(241 245 249);
-  --header-primary-color: rgb(224, 5, 5);
+  --red-primary-color: rgb(224, 5, 5);
   --white-color: #fff;
   --shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+body{
+  height: 1300px;
 }

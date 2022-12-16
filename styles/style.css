@@ -1,13 +1,11 @@
+/* HEADER */
 .header__container {
   height: 70px;
   padding: 25px;
-  background-color: var(--header-primary-color);
+  background-color: var(--red-primary-color);
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.header__container .header__menu-principal {
 }
 
 .header__image {
@@ -20,10 +18,12 @@
   font-size: 20px;
   text-decoration: none;
   padding: 10px;
-  font-family: 'Comfortaa', cursive;;
+  /* font-family: 'Comfortaa', cursive; */
   color: var(--white-color);
 }
+/*  */
 
+/* BANNER INICIAL */
 .banner__container {
   width: 100%;
   text-align: center;
@@ -53,3 +53,29 @@
   box-shadow: var(--shadow);
   border-radius: 6px;
 }
+/*  */
+
+/* NEWSLETTER */
+
+.newsletter__container{
+  padding: 100px;
+  margin-top: 32px;
+  max-width: 100%;
+  width: 100%;
+  box-shadow: var(--shadow);
+  background-color: var(--red-primary-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.newsletter__container div p {
+  font-size: 1.4rem;
+}
+.newsletter__email__input{
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+/*  */
