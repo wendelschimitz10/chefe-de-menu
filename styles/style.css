@@ -107,8 +107,8 @@
   
 }
 .footer__containner--icon{
-  max-height: 100px;
-  padding: 30px;
+  height: 70px;
+  padding: 10px;
    
 }
 /*.footer__containner--icon:hover{
@@ -118,7 +118,7 @@
 
 .footer__containner--info{
   position: relative;
-  left: 22%;
+  left: 28%;
   
   
 }
@@ -134,6 +134,7 @@
 }
 .footer__containner--ref-link:hover{
   text-decoration: underline;
+  color: var(--footer__link-text);
   
 }
 .footer__baseboard{ 
@@ -146,4 +147,7 @@
 .footer__baseboard > a{
   text-decoration: none;
   color: white;
+}
+.footer__baseboard > a :hover{
+  color: var(--footer__link-text);
 }
