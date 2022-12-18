@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 /* HEADER */
 .header__container {
   height: 70px;
@@ -82,9 +86,9 @@
 
 .footer__block{ 
   position: absolute;
-  width: auto;
-  height: auto;
+  width:100%;
   padding: 30px;
+  background-color: var(--red-primary-color);
   
 }
 .footer__block--main{ 
@@ -93,17 +97,18 @@
 .footer__block--main-text{
   font-family: var(--footer__font-main);
   text-align: center;
+  color:var(--white-color);
 }
 
 .footer__containner{
   position: relative;
-  left: 10%;
+  left: 5%;
   
   
 }
 .footer__containner--icon{
-  width: 40px;
-  padding: 30px;
+  height: 70px;
+  padding: 10px;
    
 }
 /*.footer__containner--icon:hover{
@@ -113,7 +118,8 @@
 
 .footer__containner--info{
   position: relative;
-  left: 40%;
+  left: 28%;
+  
   
 }
 .footer__containner--ref{
@@ -124,19 +130,24 @@
   font-family: var(--footer__font-main);
   text-decoration: none;
   padding: 10px;
+  color:var(--white-color);
 }
 .footer__containner--ref-link:hover{
   text-decoration: underline;
+  color: var(--footer__link-text);
   
 }
 .footer__baseboard{ 
   position: relative;
-  left: 25%;
-  font-family:var(--footer__font-baseboard) ;
+  font-family:var(--footer__font-main) ;
   text-align: center;
   padding-top: 50px;
   width: auto;  
 }
 .footer__baseboard > a{
   text-decoration: none;
+  color: var(--white-color);
+}
+.footer__baseboard > a :hover{
+  color: var(--footer__link-text);
 }
