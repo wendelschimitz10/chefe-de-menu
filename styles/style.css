@@ -97,7 +97,7 @@
 .footer__block--main-text{
   font-family: var(--footer__font-main);
   text-align: center;
-  color:white;
+  color:var(--white-color);
 }
 
 .footer__containner{
@@ -130,7 +130,7 @@
   font-family: var(--footer__font-main);
   text-decoration: none;
   padding: 10px;
-  color:white;
+  color:var(--white-color);
 }
 .footer__containner--ref-link:hover{
   text-decoration: underline;
@@ -146,7 +146,7 @@
 }
 .footer__baseboard > a{
   text-decoration: none;
-  color: white;
+  color: var(--white-color);
 }
 .footer__baseboard > a :hover{
   color: var(--footer__link-text);
